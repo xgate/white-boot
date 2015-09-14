@@ -13,8 +13,8 @@ public class AccountTest {
     @Test
     public void getterSetter() {
         Account account = new Account();
-        account.setLoginId("xgate");
+        account.setUsername("whiteboot");
         account.setPassword("password");
-        assertThat(account.getLoginId(), is("xgate"));
+        assertThat(account.getUsername(), is("whiteboot"));
     }
 }
